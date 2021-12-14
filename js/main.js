@@ -100,7 +100,7 @@ $(document).ready(function () {
     runAnimations: function() {
 
       // Run animation when icon shows on bottom of window. 0.8 is approximate factor
-      var offset = $(window).height() * 0.85;
+      var offset = $(window).height() * 0.8;
       var svgIcons = $('.svg-icon');
       svgIcons.waypoint({
         handler: function() {
@@ -267,7 +267,7 @@ $(document).ready(function () {
             setBottomMenuPosition();
           }
         },
-        offset: 805
+        offset: 810
       });
 
       function setBottomMenuPosition() {
